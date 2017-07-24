@@ -1,0 +1,51 @@
+2017-07-18 09:28:20,499 [main] INFO  org.eclipse.jetty.util.log [Line:186] - Logging initialized @331ms
+2017-07-18 09:28:20,619 [main] INFO  org.eclipse.jetty.server.Server [Line:327] - jetty-9.2.10.v20150310
+2017-07-18 09:28:20,642 [main] INFO  / [Line:2052] - Initializing Spring root WebApplicationContext
+2017-07-18 09:28:21,810 [main] INFO  / [Line:2052] - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-5891e32e'
+2017-07-18 09:28:21,833 [main] INFO  o.e.j.server.handler.ContextHandler [Line:744] - Started o.e.j.s.ServletContextHandler@2c039ac6{/,file:/home/rex/code/IdeaProjects/webapi/target/classes/webapp/,AVAILABLE}
+2017-07-18 09:28:21,839 [main] WARN  o.e.j.u.component.AbstractLifeCycle [Line:212] - FAILED ServerConnector@204f30ec{HTTP/1.1}{0.0.0.0:2800}: java.net.BindException: 地址已在使用
+java.net.BindException: 地址已在使用
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:321)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:366)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at bbd_z.server.ApiServer.startJetty(ApiServer.java:65)
+	at bbd_z.server.ApiServer.main(ApiServer.java:42)
+2017-07-18 09:28:21,840 [main] WARN  o.e.j.u.component.AbstractLifeCycle [Line:212] - FAILED org.eclipse.jetty.server.Server@1593948d: java.net.BindException: 地址已在使用
+java.net.BindException: 地址已在使用
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:321)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:366)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at bbd_z.server.ApiServer.startJetty(ApiServer.java:65)
+	at bbd_z.server.ApiServer.main(ApiServer.java:42)
+2017-07-18 09:28:37,990 [main] INFO  org.eclipse.jetty.util.log [Line:186] - Logging initialized @360ms
+2017-07-18 09:28:38,104 [main] INFO  org.eclipse.jetty.server.Server [Line:327] - jetty-9.2.10.v20150310
+2017-07-18 09:28:38,135 [main] INFO  / [Line:2052] - Initializing Spring root WebApplicationContext
+2017-07-18 09:28:39,292 [main] INFO  / [Line:2052] - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-52f759d7'
+2017-07-18 09:28:39,310 [main] INFO  o.e.j.server.handler.ContextHandler [Line:744] - Started o.e.j.s.ServletContextHandler@36b4cef0{/,file:/home/rex/code/IdeaProjects/webapi/target/classes/webapp/,AVAILABLE}
+2017-07-18 09:28:39,321 [main] INFO  o.e.jetty.server.ServerConnector [Line:266] - Started ServerConnector@39c0f4a{HTTP/1.1}{0.0.0.0:2900}
+2017-07-18 09:28:39,322 [main] INFO  org.eclipse.jetty.server.Server [Line:379] - Started @1693ms
+2017-07-18 09:28:39,322 [main] INFO  bbd_z.server.ApiServer [Line:66 ] - Server started at port 2900
+2017-07-18 09:53:25,288 [main] INFO  org.eclipse.jetty.util.log [Line:186] - Logging initialized @340ms
+2017-07-18 09:53:25,404 [main] INFO  org.eclipse.jetty.server.Server [Line:327] - jetty-9.2.10.v20150310
+2017-07-18 09:53:25,434 [main] INFO  / [Line:2052] - Initializing Spring root WebApplicationContext
+2017-07-18 09:53:26,645 [main] INFO  / [Line:2052] - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-52f759d7'
+2017-07-18 09:53:26,662 [main] INFO  o.e.j.server.handler.ContextHandler [Line:744] - Started o.e.j.s.ServletContextHandler@36b4cef0{/,file:/home/rex/code/IdeaProjects/webapi/target/classes/webapp/,AVAILABLE}
+2017-07-18 09:53:26,674 [main] INFO  o.e.jetty.server.ServerConnector [Line:266] - Started ServerConnector@39c0f4a{HTTP/1.1}{0.0.0.0:2900}
+2017-07-18 09:53:26,674 [main] INFO  org.eclipse.jetty.server.Server [Line:379] - Started @1727ms
+2017-07-18 09:53:26,675 [main] INFO  bbd_z.server.ApiServer [Line:66 ] - Server started at port 2900

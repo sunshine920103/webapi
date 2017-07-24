@@ -1,0 +1,520 @@
+2017-07-24 01:01:40,428 [main] INFO  org.eclipse.jetty.util.log [Line:186] - Logging initialized @353ms
+2017-07-24 01:01:40,567 [main] INFO  org.eclipse.jetty.server.Server [Line:327] - jetty-9.2.10.v20150310
+2017-07-24 01:01:40,588 [main] INFO  / [Line:2052] - Initializing Spring root WebApplicationContext
+2017-07-24 01:01:41,803 [main] INFO  / [Line:2052] - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-30d1e6'
+2017-07-24 01:01:41,826 [main] INFO  o.e.j.server.handler.ContextHandler [Line:744] - Started o.e.j.s.ServletContextHandler@1a7504c{/,file:/C:/Users/cc/Desktop/webapi/target/classes/webapp/,AVAILABLE}
+2017-07-24 01:01:41,912 [main] INFO  o.e.jetty.server.ServerConnector [Line:266] - Started ServerConnector@17cd7a0{HTTP/1.1}{0.0.0.0:2800}
+2017-07-24 01:01:41,913 [main] INFO  org.eclipse.jetty.server.Server [Line:379] - Started @1839ms
+2017-07-24 01:01:41,913 [main] INFO  bbd_z.server.ApiServer [Line:66 ] - Server started at port 2800
+2017-07-24 01:01:45,118 [qtp22762898-17 - /down/iCheck?id=513231198105291719] INFO  info.bbd.utils.config.ConfigUtil [Line:31 ] - Load resource: utils.properties
+2017-07-24 01:01:45,118 [qtp22762898-17 - /down/iCheck?id=513231198105291719] ERROR info.bbd.utils.config.ConfigUtil [Line:36 ] - Config file 'utils.properties' does not exist!
+2017-07-24 01:01:45,119 [qtp22762898-17 - /down/iCheck?id=513231198105291719] INFO  info.bbd.utils.config.ConfigUtil [Line:31 ] - Load resource: utils-sample.properties
+2017-07-24 01:14:26,041 [main] INFO  org.eclipse.jetty.util.log [Line:186] - Logging initialized @350ms
+2017-07-24 01:14:26,155 [main] INFO  org.eclipse.jetty.server.Server [Line:327] - jetty-9.2.10.v20150310
+2017-07-24 01:14:26,177 [main] INFO  / [Line:2052] - Initializing Spring root WebApplicationContext
+2017-07-24 01:14:27,427 [main] INFO  / [Line:2052] - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-eca56e'
+2017-07-24 01:14:27,451 [main] INFO  o.e.j.server.handler.ContextHandler [Line:744] - Started o.e.j.s.ServletContextHandler@1921e20{/,file:/C:/Users/cc/Desktop/webapi/target/classes/webapp/,AVAILABLE}
+2017-07-24 01:14:27,537 [main] INFO  o.e.jetty.server.ServerConnector [Line:266] - Started ServerConnector@19d1a19{HTTP/1.1}{0.0.0.0:2800}
+2017-07-24 01:14:27,537 [main] INFO  org.eclipse.jetty.server.Server [Line:379] - Started @1847ms
+2017-07-24 01:14:27,538 [main] INFO  bbd_z.server.ApiServer [Line:66 ] - Server started at port 2800
+2017-07-24 01:14:32,638 [qtp3874065-15 - /down/iCheck?id=513231198105291719] INFO  info.bbd.utils.config.ConfigUtil [Line:31 ] - Load resource: utils.properties
+2017-07-24 01:14:32,638 [qtp3874065-15 - /down/iCheck?id=513231198105291719] ERROR info.bbd.utils.config.ConfigUtil [Line:36 ] - Config file 'utils.properties' does not exist!
+2017-07-24 01:14:32,638 [qtp3874065-15 - /down/iCheck?id=513231198105291719] INFO  info.bbd.utils.config.ConfigUtil [Line:31 ] - Load resource: utils-sample.properties
+2017-07-24 01:55:35,390 [main] INFO  org.eclipse.jetty.util.log [Line:186] - Logging initialized @356ms
+2017-07-24 01:55:35,514 [main] INFO  org.eclipse.jetty.server.Server [Line:327] - jetty-9.2.10.v20150310
+2017-07-24 01:55:35,534 [main] INFO  / [Line:2052] - Initializing Spring root WebApplicationContext
+2017-07-24 01:55:36,788 [main] INFO  / [Line:2052] - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-eca56e'
+2017-07-24 01:55:36,812 [main] INFO  o.e.j.server.handler.ContextHandler [Line:744] - Started o.e.j.s.ServletContextHandler@1921e20{/,file:/C:/Users/cc/Desktop/webapi/target/classes/webapp/,AVAILABLE}
+2017-07-24 01:55:36,899 [main] INFO  o.e.jetty.server.ServerConnector [Line:266] - Started ServerConnector@19d1a19{HTTP/1.1}{0.0.0.0:2800}
+2017-07-24 01:55:36,900 [main] INFO  org.eclipse.jetty.server.Server [Line:379] - Started @1867ms
+2017-07-24 01:55:36,900 [main] INFO  bbd_z.server.ApiServer [Line:66 ] - Server started at port 2800
+2017-07-24 01:55:39,423 [qtp3874065-15 - /down/iCheck?id=513231198105291719] INFO  info.bbd.utils.config.ConfigUtil [Line:31 ] - Load resource: utils.properties
+2017-07-24 01:55:39,424 [qtp3874065-15 - /down/iCheck?id=513231198105291719] ERROR info.bbd.utils.config.ConfigUtil [Line:36 ] - Config file 'utils.properties' does not exist!
+2017-07-24 01:55:39,424 [qtp3874065-15 - /down/iCheck?id=513231198105291719] INFO  info.bbd.utils.config.ConfigUtil [Line:31 ] - Load resource: utils-sample.properties
+2017-07-24 01:55:39,477 [qtp3874065-15 - /down/iCheck?id=513231198105291719] WARN  o.e.jetty.servlet.ServletHandler [Line:620] - 
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.ClassCastException: java.lang.String cannot be cast to org.json.JSONObject
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassCastException: java.lang.String cannot be cast to org.json.JSONObject
+	at bbd_z.service.DownICheckService.getModel(DownICheckService.java:345)
+	at bbd_z.controller.DownICheckController.getIcheck(DownICheckController.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:114)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	... 18 common frames omitted
+2017-07-24 01:57:22,861 [main] INFO  org.eclipse.jetty.util.log [Line:186] - Logging initialized @359ms
+2017-07-24 01:57:22,979 [main] INFO  org.eclipse.jetty.server.Server [Line:327] - jetty-9.2.10.v20150310
+2017-07-24 01:57:23,000 [main] INFO  / [Line:2052] - Initializing Spring root WebApplicationContext
+2017-07-24 01:57:24,242 [main] INFO  / [Line:2052] - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-eca56e'
+2017-07-24 01:57:24,266 [main] INFO  o.e.j.server.handler.ContextHandler [Line:744] - Started o.e.j.s.ServletContextHandler@1921e20{/,file:/C:/Users/cc/Desktop/webapi/target/classes/webapp/,AVAILABLE}
+2017-07-24 01:57:24,352 [main] INFO  o.e.jetty.server.ServerConnector [Line:266] - Started ServerConnector@19d1a19{HTTP/1.1}{0.0.0.0:2800}
+2017-07-24 01:57:24,353 [main] INFO  org.eclipse.jetty.server.Server [Line:379] - Started @1852ms
+2017-07-24 01:57:24,353 [main] INFO  bbd_z.server.ApiServer [Line:66 ] - Server started at port 2800
+2017-07-24 01:57:48,261 [qtp3874065-11 - /down/iCheck?id=513231198105291719] INFO  info.bbd.utils.config.ConfigUtil [Line:31 ] - Load resource: utils.properties
+2017-07-24 01:57:48,261 [qtp3874065-11 - /down/iCheck?id=513231198105291719] ERROR info.bbd.utils.config.ConfigUtil [Line:36 ] - Config file 'utils.properties' does not exist!
+2017-07-24 01:57:48,262 [qtp3874065-11 - /down/iCheck?id=513231198105291719] INFO  info.bbd.utils.config.ConfigUtil [Line:31 ] - Load resource: utils-sample.properties
+2017-07-24 02:19:50,629 [main] INFO  org.eclipse.jetty.util.log [Line:186] - Logging initialized @359ms
+2017-07-24 02:19:50,746 [main] INFO  org.eclipse.jetty.server.Server [Line:327] - jetty-9.2.10.v20150310
+2017-07-24 02:19:50,770 [main] INFO  / [Line:2052] - Initializing Spring root WebApplicationContext
+2017-07-24 02:19:52,030 [main] INFO  / [Line:2052] - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-eca56e'
+2017-07-24 02:19:52,054 [main] INFO  o.e.j.server.handler.ContextHandler [Line:744] - Started o.e.j.s.ServletContextHandler@1921e20{/,file:/C:/Users/cc/Desktop/webapi/target/classes/webapp/,AVAILABLE}
+2017-07-24 02:19:52,142 [main] INFO  o.e.jetty.server.ServerConnector [Line:266] - Started ServerConnector@19d1a19{HTTP/1.1}{0.0.0.0:2800}
+2017-07-24 02:19:52,142 [main] INFO  org.eclipse.jetty.server.Server [Line:379] - Started @1873ms
+2017-07-24 02:19:52,142 [main] INFO  bbd_z.server.ApiServer [Line:66 ] - Server started at port 2800
+2017-07-24 02:19:55,821 [qtp3874065-13 - /down/iCheck?id=513231198105291719] INFO  info.bbd.utils.config.ConfigUtil [Line:31 ] - Load resource: utils.properties
+2017-07-24 02:19:55,822 [qtp3874065-13 - /down/iCheck?id=513231198105291719] ERROR info.bbd.utils.config.ConfigUtil [Line:36 ] - Config file 'utils.properties' does not exist!
+2017-07-24 02:19:55,822 [qtp3874065-13 - /down/iCheck?id=513231198105291719] INFO  info.bbd.utils.config.ConfigUtil [Line:31 ] - Load resource: utils-sample.properties
+2017-07-24 02:20:24,989 [qtp3874065-16 - /down/iCheck?id=513232197405042240] WARN  o.e.jetty.servlet.ServletHandler [Line:620] - 
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.NullPointerException
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException: null
+	at bbd_z.service.DownICheckService.getSameFamily(DownICheckService.java:31)
+	at bbd_z.service.DownICheckService.getModel(DownICheckService.java:59)
+	at bbd_z.controller.DownICheckController.getIcheck(DownICheckController.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:114)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	... 18 common frames omitted
+2017-07-24 02:21:04,979 [qtp3874065-13 - /down/iCheck?id=513231198405091727] WARN  o.e.jetty.servlet.ServletHandler [Line:620] - 
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.json.JSONException: JSONObject["zjhm"] not a string.
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.json.JSONException: JSONObject["zjhm"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:721)
+	at bbd_z.service.DownICheckService.getModel(DownICheckService.java:283)
+	at bbd_z.controller.DownICheckController.getIcheck(DownICheckController.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:114)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	... 18 common frames omitted
+2017-07-24 02:22:26,366 [main] INFO  org.eclipse.jetty.util.log [Line:186] - Logging initialized @513ms
+2017-07-24 02:22:26,506 [main] INFO  org.eclipse.jetty.server.Server [Line:327] - jetty-9.2.10.v20150310
+2017-07-24 02:22:26,531 [main] INFO  / [Line:2052] - Initializing Spring root WebApplicationContext
+2017-07-24 02:22:27,923 [main] INFO  / [Line:2052] - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-eca56e'
+2017-07-24 02:22:27,948 [main] INFO  o.e.j.server.handler.ContextHandler [Line:744] - Started o.e.j.s.ServletContextHandler@1921e20{/,file:/C:/Users/cc/Desktop/webapi/target/classes/webapp/,AVAILABLE}
+2017-07-24 02:22:28,036 [main] INFO  o.e.jetty.server.ServerConnector [Line:266] - Started ServerConnector@19d1a19{HTTP/1.1}{0.0.0.0:2800}
+2017-07-24 02:22:28,036 [main] INFO  org.eclipse.jetty.server.Server [Line:379] - Started @2183ms
+2017-07-24 02:22:28,036 [main] INFO  bbd_z.server.ApiServer [Line:66 ] - Server started at port 2800
+2017-07-24 02:23:15,740 [main] INFO  org.eclipse.jetty.util.log [Line:186] - Logging initialized @311ms
+2017-07-24 02:23:15,857 [main] INFO  org.eclipse.jetty.server.Server [Line:327] - jetty-9.2.10.v20150310
+2017-07-24 02:23:15,878 [main] INFO  / [Line:2052] - Initializing Spring root WebApplicationContext
+2017-07-24 02:23:17,087 [main] INFO  / [Line:2052] - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-eca56e'
+2017-07-24 02:23:17,111 [main] INFO  o.e.j.server.handler.ContextHandler [Line:744] - Started o.e.j.s.ServletContextHandler@1921e20{/,file:/C:/Users/cc/Desktop/webapi/target/classes/webapp/,AVAILABLE}
+2017-07-24 02:23:17,195 [main] INFO  o.e.jetty.server.ServerConnector [Line:266] - Started ServerConnector@19d1a19{HTTP/1.1}{0.0.0.0:2800}
+2017-07-24 02:23:17,195 [main] INFO  org.eclipse.jetty.server.Server [Line:379] - Started @1769ms
+2017-07-24 02:23:17,196 [main] INFO  bbd_z.server.ApiServer [Line:66 ] - Server started at port 2800
+2017-07-24 02:23:22,230 [qtp3874065-17 - /down/iCheck?id=513231198405091727] INFO  info.bbd.utils.config.ConfigUtil [Line:31 ] - Load resource: utils.properties
+2017-07-24 02:23:22,230 [qtp3874065-17 - /down/iCheck?id=513231198405091727] ERROR info.bbd.utils.config.ConfigUtil [Line:36 ] - Config file 'utils.properties' does not exist!
+2017-07-24 02:23:22,231 [qtp3874065-17 - /down/iCheck?id=513231198405091727] INFO  info.bbd.utils.config.ConfigUtil [Line:31 ] - Load resource: utils-sample.properties
+2017-07-24 02:23:22,278 [qtp3874065-17 - /down/iCheck?id=513231198405091727] WARN  o.e.jetty.servlet.ServletHandler [Line:620] - 
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.json.JSONException: JSONObject["zjhm"] not a string.
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.json.JSONException: JSONObject["zjhm"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:721)
+	at bbd_z.service.DownICheckService.getModel(DownICheckService.java:283)
+	at bbd_z.controller.DownICheckController.getIcheck(DownICheckController.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:114)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	... 18 common frames omitted
+2017-07-24 02:23:53,576 [main] INFO  org.eclipse.jetty.util.log [Line:186] - Logging initialized @376ms
+2017-07-24 02:23:53,691 [main] INFO  org.eclipse.jetty.server.Server [Line:327] - jetty-9.2.10.v20150310
+2017-07-24 02:23:53,715 [main] INFO  / [Line:2052] - Initializing Spring root WebApplicationContext
+2017-07-24 02:23:54,953 [main] INFO  / [Line:2052] - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-eca56e'
+2017-07-24 02:23:54,978 [main] INFO  o.e.j.server.handler.ContextHandler [Line:744] - Started o.e.j.s.ServletContextHandler@1921e20{/,file:/C:/Users/cc/Desktop/webapi/target/classes/webapp/,AVAILABLE}
+2017-07-24 02:23:55,067 [main] INFO  o.e.jetty.server.ServerConnector [Line:266] - Started ServerConnector@19d1a19{HTTP/1.1}{0.0.0.0:2800}
+2017-07-24 02:23:55,067 [main] INFO  org.eclipse.jetty.server.Server [Line:379] - Started @1868ms
+2017-07-24 02:23:55,068 [main] INFO  bbd_z.server.ApiServer [Line:66 ] - Server started at port 2800
+2017-07-24 02:23:57,411 [qtp3874065-11 - /down/iCheck?id=513231198405091727] INFO  info.bbd.utils.config.ConfigUtil [Line:31 ] - Load resource: utils.properties
+2017-07-24 02:23:57,411 [qtp3874065-11 - /down/iCheck?id=513231198405091727] ERROR info.bbd.utils.config.ConfigUtil [Line:36 ] - Config file 'utils.properties' does not exist!
+2017-07-24 02:23:57,411 [qtp3874065-11 - /down/iCheck?id=513231198405091727] INFO  info.bbd.utils.config.ConfigUtil [Line:31 ] - Load resource: utils-sample.properties
+2017-07-24 02:23:57,462 [qtp3874065-11 - /down/iCheck?id=513231198405091727] WARN  o.e.jetty.servlet.ServletHandler [Line:620] - 
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.json.JSONException: JSONObject["zjhm"] not a string.
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.json.JSONException: JSONObject["zjhm"] not a string.
+	at org.json.JSONObject.getString(JSONObject.java:721)
+	at bbd_z.service.DownICheckService.getModel(DownICheckService.java:283)
+	at bbd_z.controller.DownICheckController.getIcheck(DownICheckController.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:114)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	... 18 common frames omitted
+2017-07-24 02:24:29,925 [main] INFO  org.eclipse.jetty.util.log [Line:186] - Logging initialized @352ms
+2017-07-24 02:24:30,042 [main] INFO  org.eclipse.jetty.server.Server [Line:327] - jetty-9.2.10.v20150310
+2017-07-24 02:24:30,063 [main] INFO  / [Line:2052] - Initializing Spring root WebApplicationContext
+2017-07-24 02:24:31,305 [main] INFO  / [Line:2052] - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-eca56e'
+2017-07-24 02:24:31,330 [main] INFO  o.e.j.server.handler.ContextHandler [Line:744] - Started o.e.j.s.ServletContextHandler@1921e20{/,file:/C:/Users/cc/Desktop/webapi/target/classes/webapp/,AVAILABLE}
+2017-07-24 02:24:31,417 [main] INFO  o.e.jetty.server.ServerConnector [Line:266] - Started ServerConnector@19d1a19{HTTP/1.1}{0.0.0.0:2800}
+2017-07-24 02:24:31,417 [main] INFO  org.eclipse.jetty.server.Server [Line:379] - Started @1846ms
+2017-07-24 02:24:31,417 [main] INFO  bbd_z.server.ApiServer [Line:66 ] - Server started at port 2800
+2017-07-24 02:24:33,560 [qtp3874065-10 - /down/iCheck?id=513231198405091727] INFO  info.bbd.utils.config.ConfigUtil [Line:31 ] - Load resource: utils.properties
+2017-07-24 02:24:33,560 [qtp3874065-10 - /down/iCheck?id=513231198405091727] ERROR info.bbd.utils.config.ConfigUtil [Line:36 ] - Config file 'utils.properties' does not exist!
+2017-07-24 02:24:33,560 [qtp3874065-10 - /down/iCheck?id=513231198405091727] INFO  info.bbd.utils.config.ConfigUtil [Line:31 ] - Load resource: utils-sample.properties
+2017-07-24 02:24:33,611 [qtp3874065-10 - /down/iCheck?id=513231198405091727] ERROR info.bbd.utils.json.JsonUtils [Line:91 ] - Exception:Can not construct instance of bbd_z.downloadsDomains.HotelLogs: no suitable constructor found, can not deserialize from Object value (missing default constructor or creator, or perhaps need to add/enable type information?), at [Source: {"gxdwbm":513231400000,"gxdwmc":"阿坝县公安局阿坝镇派出所","rzsj":"2017-05-09 20:06:26","hotelName":"雪域吉福旅店","rzfh":8305,"tfsj":"2017-05-10 18:47:41"}; line: 1, column: 2];com.fasterxml.jackson.databind.JsonMappingException.from(JsonMappingException.java:270);com.fasterxml.jackson.databind.DeserializationContext.instantiationException(DeserializationContext.java:1456);com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1012);com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1213);com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:314);com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:148);com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:1626);com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1220);info.bbd.utils.json.JsonUtils.getObject(JsonUtils.java:89);bbd_z.service.DownICheckService.getModel(DownICheckService.java:351);bbd_z.controller.DownICheckController.getIcheck(DownICheckController.java:26);sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method);sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62);sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43);java.lang.reflect.Method.invoke(Method.java:498);org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221);org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136);org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:114);org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827);org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738);org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85);org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963);org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897);org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970);org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861);javax.servlet.http.HttpServlet.service(HttpServlet.java:687);org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846);javax.servlet.http.HttpServlet.service(HttpServlet.java:790);org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808);org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587);org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127);org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515);org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061);org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141);org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97);org.eclipse.jetty.server.Server.handle(Server.java:497);org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310);org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257);org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540);org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635);org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555);java.lang.Thread.run(Thread.java:748)
+2017-07-24 02:24:33,615 [qtp3874065-10 - /down/iCheck?id=513231198405091727] WARN  o.e.jetty.servlet.ServletHandler [Line:620] - 
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.RuntimeException: com.fasterxml.jackson.databind.JsonMappingException: Can not construct instance of bbd_z.downloadsDomains.HotelLogs: no suitable constructor found, can not deserialize from Object value (missing default constructor or creator, or perhaps need to add/enable type information?)
+ at [Source: {"gxdwbm":513231400000,"gxdwmc":"阿坝县公安局阿坝镇派出所","rzsj":"2017-05-09 20:06:26","hotelName":"雪域吉福旅店","rzfh":8305,"tfsj":"2017-05-10 18:47:41"}; line: 1, column: 2]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.RuntimeException: com.fasterxml.jackson.databind.JsonMappingException: Can not construct instance of bbd_z.downloadsDomains.HotelLogs: no suitable constructor found, can not deserialize from Object value (missing default constructor or creator, or perhaps need to add/enable type information?)
+ at [Source: {"gxdwbm":513231400000,"gxdwmc":"阿坝县公安局阿坝镇派出所","rzsj":"2017-05-09 20:06:26","hotelName":"雪域吉福旅店","rzfh":8305,"tfsj":"2017-05-10 18:47:41"}; line: 1, column: 2]
+	at info.bbd.utils.json.JsonUtils.getObject(JsonUtils.java:92)
+	at bbd_z.service.DownICheckService.getModel(DownICheckService.java:351)
+	at bbd_z.controller.DownICheckController.getIcheck(DownICheckController.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:114)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	... 18 common frames omitted
+Caused by: com.fasterxml.jackson.databind.JsonMappingException: Can not construct instance of bbd_z.downloadsDomains.HotelLogs: no suitable constructor found, can not deserialize from Object value (missing default constructor or creator, or perhaps need to add/enable type information?)
+ at [Source: {"gxdwbm":513231400000,"gxdwmc":"阿坝县公安局阿坝镇派出所","rzsj":"2017-05-09 20:06:26","hotelName":"雪域吉福旅店","rzfh":8305,"tfsj":"2017-05-10 18:47:41"}; line: 1, column: 2]
+	at com.fasterxml.jackson.databind.JsonMappingException.from(JsonMappingException.java:270)
+	at com.fasterxml.jackson.databind.DeserializationContext.instantiationException(DeserializationContext.java:1456)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1012)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.deserializeFromObjectUsingNonDefault(BeanDeserializerBase.java:1213)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:314)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:148)
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:1626)
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1220)
+	at info.bbd.utils.json.JsonUtils.getObject(JsonUtils.java:89)
+	... 33 common frames omitted
+2017-07-24 02:26:01,966 [main] INFO  org.eclipse.jetty.util.log [Line:186] - Logging initialized @352ms
+2017-07-24 02:26:02,078 [main] INFO  org.eclipse.jetty.server.Server [Line:327] - jetty-9.2.10.v20150310
+2017-07-24 02:26:02,098 [main] INFO  / [Line:2052] - Initializing Spring root WebApplicationContext
+2017-07-24 02:26:03,332 [main] INFO  / [Line:2052] - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-eca56e'
+2017-07-24 02:26:03,355 [main] INFO  o.e.j.server.handler.ContextHandler [Line:744] - Started o.e.j.s.ServletContextHandler@1921e20{/,file:/C:/Users/cc/Desktop/webapi/target/classes/webapp/,AVAILABLE}
+2017-07-24 02:26:03,442 [main] INFO  o.e.jetty.server.ServerConnector [Line:266] - Started ServerConnector@19d1a19{HTTP/1.1}{0.0.0.0:2800}
+2017-07-24 02:26:03,443 [main] INFO  org.eclipse.jetty.server.Server [Line:379] - Started @1829ms
+2017-07-24 02:26:03,443 [main] INFO  bbd_z.server.ApiServer [Line:66 ] - Server started at port 2800
+2017-07-24 02:26:08,791 [qtp3874065-13 - /down/iCheck?id=513231198405091727] INFO  info.bbd.utils.config.ConfigUtil [Line:31 ] - Load resource: utils.properties
+2017-07-24 02:26:08,792 [qtp3874065-13 - /down/iCheck?id=513231198405091727] ERROR info.bbd.utils.config.ConfigUtil [Line:36 ] - Config file 'utils.properties' does not exist!
+2017-07-24 02:26:08,792 [qtp3874065-13 - /down/iCheck?id=513231198405091727] INFO  info.bbd.utils.config.ConfigUtil [Line:31 ] - Load resource: utils-sample.properties
+2017-07-24 02:26:08,843 [qtp3874065-13 - /down/iCheck?id=513231198405091727] ERROR info.bbd.utils.json.JsonUtils [Line:91 ] - Exception:Unrecognized field "gxdwbm" (class bbd_z.downloadsDomains.HotelLogs), not marked as ignorable (4 known properties: "tfsj", "rzfh", "hotelName", "rzsj"]), at [Source: {"gxdwbm":513231400000,"gxdwmc":"阿坝县公安局阿坝镇派出所","rzsj":"2017-05-09 20:06:26","hotelName":"雪域吉福旅店","rzfh":8305,"tfsj":"2017-05-10 18:47:41"}; line: 1, column: 23] (through reference chain: bbd_z.downloadsDomains.HotelLogs["gxdwbm"]);com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:62);com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:834);com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:1093);com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1485);com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1463);com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:282);com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:140);com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:1626);com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1220);info.bbd.utils.json.JsonUtils.getObject(JsonUtils.java:89);bbd_z.service.DownICheckService.getModel(DownICheckService.java:351);bbd_z.controller.DownICheckController.getIcheck(DownICheckController.java:26);sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method);sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62);sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43);java.lang.reflect.Method.invoke(Method.java:498);org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221);org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136);org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:114);org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827);org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738);org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85);org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963);org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897);org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970);org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861);javax.servlet.http.HttpServlet.service(HttpServlet.java:687);org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846);javax.servlet.http.HttpServlet.service(HttpServlet.java:790);org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808);org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587);org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127);org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515);org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061);org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141);org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97);org.eclipse.jetty.server.Server.handle(Server.java:497);org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310);org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257);org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540);org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635);org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555);java.lang.Thread.run(Thread.java:748)
+2017-07-24 02:26:08,847 [qtp3874065-13 - /down/iCheck?id=513231198405091727] WARN  o.e.jetty.servlet.ServletHandler [Line:620] - 
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "gxdwbm" (class bbd_z.downloadsDomains.HotelLogs), not marked as ignorable (4 known properties: "tfsj", "rzfh", "hotelName", "rzsj"])
+ at [Source: {"gxdwbm":513231400000,"gxdwmc":"阿坝县公安局阿坝镇派出所","rzsj":"2017-05-09 20:06:26","hotelName":"雪域吉福旅店","rzfh":8305,"tfsj":"2017-05-10 18:47:41"}; line: 1, column: 23] (through reference chain: bbd_z.downloadsDomains.HotelLogs["gxdwbm"])
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "gxdwbm" (class bbd_z.downloadsDomains.HotelLogs), not marked as ignorable (4 known properties: "tfsj", "rzfh", "hotelName", "rzsj"])
+ at [Source: {"gxdwbm":513231400000,"gxdwmc":"阿坝县公安局阿坝镇派出所","rzsj":"2017-05-09 20:06:26","hotelName":"雪域吉福旅店","rzfh":8305,"tfsj":"2017-05-10 18:47:41"}; line: 1, column: 23] (through reference chain: bbd_z.downloadsDomains.HotelLogs["gxdwbm"])
+	at info.bbd.utils.json.JsonUtils.getObject(JsonUtils.java:92)
+	at bbd_z.service.DownICheckService.getModel(DownICheckService.java:351)
+	at bbd_z.controller.DownICheckController.getIcheck(DownICheckController.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:114)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	... 18 common frames omitted
+Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "gxdwbm" (class bbd_z.downloadsDomains.HotelLogs), not marked as ignorable (4 known properties: "tfsj", "rzfh", "hotelName", "rzsj"])
+ at [Source: {"gxdwbm":513231400000,"gxdwmc":"阿坝县公安局阿坝镇派出所","rzsj":"2017-05-09 20:06:26","hotelName":"雪域吉福旅店","rzfh":8305,"tfsj":"2017-05-10 18:47:41"}; line: 1, column: 23] (through reference chain: bbd_z.downloadsDomains.HotelLogs["gxdwbm"])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:62)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:834)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:1093)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1485)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1463)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:282)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:140)
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:1626)
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1220)
+	at info.bbd.utils.json.JsonUtils.getObject(JsonUtils.java:89)
+	... 33 common frames omitted
+2017-07-24 02:28:00,347 [main] INFO  org.eclipse.jetty.util.log [Line:186] - Logging initialized @378ms
+2017-07-24 02:28:00,460 [main] INFO  org.eclipse.jetty.server.Server [Line:327] - jetty-9.2.10.v20150310
+2017-07-24 02:28:00,480 [main] INFO  / [Line:2052] - Initializing Spring root WebApplicationContext
+2017-07-24 02:28:01,704 [main] INFO  / [Line:2052] - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-eca56e'
+2017-07-24 02:28:01,728 [main] INFO  o.e.j.server.handler.ContextHandler [Line:744] - Started o.e.j.s.ServletContextHandler@1921e20{/,file:/C:/Users/cc/Desktop/webapi/target/classes/webapp/,AVAILABLE}
+2017-07-24 02:28:01,815 [main] INFO  o.e.jetty.server.ServerConnector [Line:266] - Started ServerConnector@19d1a19{HTTP/1.1}{0.0.0.0:2800}
+2017-07-24 02:28:01,815 [main] INFO  org.eclipse.jetty.server.Server [Line:379] - Started @1847ms
+2017-07-24 02:28:01,816 [main] INFO  bbd_z.server.ApiServer [Line:66 ] - Server started at port 2800
+2017-07-24 02:28:04,377 [qtp3874065-11 - /down/iCheck?id=513231198405091727] INFO  info.bbd.utils.config.ConfigUtil [Line:31 ] - Load resource: utils.properties
+2017-07-24 02:28:04,378 [qtp3874065-11 - /down/iCheck?id=513231198405091727] ERROR info.bbd.utils.config.ConfigUtil [Line:36 ] - Config file 'utils.properties' does not exist!
+2017-07-24 02:28:04,378 [qtp3874065-11 - /down/iCheck?id=513231198405091727] INFO  info.bbd.utils.config.ConfigUtil [Line:31 ] - Load resource: utils-sample.properties
+2017-07-24 02:28:04,428 [qtp3874065-11 - /down/iCheck?id=513231198405091727] ERROR info.bbd.utils.json.JsonUtils [Line:91 ] - Exception:Unrecognized field "gxdwbm" (class bbd_z.downloadsDomains.HotelLogs), not marked as ignorable (4 known properties: "tfsj", "rzfh", "hotelName", "rzsj"]), at [Source: {"gxdwbm":513231400000,"gxdwmc":"阿坝县公安局阿坝镇派出所","rzsj":"2017-05-09 20:06:26","hotelName":"雪域吉福旅店","rzfh":8305,"tfsj":"2017-05-10 18:47:41"}; line: 1, column: 23] (through reference chain: bbd_z.downloadsDomains.HotelLogs["gxdwbm"]);com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:62);com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:834);com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:1093);com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1485);com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1463);com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:282);com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:140);com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:1626);com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1220);info.bbd.utils.json.JsonUtils.getObject(JsonUtils.java:89);bbd_z.service.DownICheckService.getModel(DownICheckService.java:351);bbd_z.controller.DownICheckController.getIcheck(DownICheckController.java:26);sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method);sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62);sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43);java.lang.reflect.Method.invoke(Method.java:498);org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221);org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136);org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:114);org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827);org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738);org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85);org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963);org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897);org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970);org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861);javax.servlet.http.HttpServlet.service(HttpServlet.java:687);org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846);javax.servlet.http.HttpServlet.service(HttpServlet.java:790);org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808);org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587);org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127);org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515);org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061);org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141);org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97);org.eclipse.jetty.server.Server.handle(Server.java:497);org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310);org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257);org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540);org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635);org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555);java.lang.Thread.run(Thread.java:748)
+2017-07-24 02:28:04,431 [qtp3874065-11 - /down/iCheck?id=513231198405091727] WARN  o.e.jetty.servlet.ServletHandler [Line:620] - 
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "gxdwbm" (class bbd_z.downloadsDomains.HotelLogs), not marked as ignorable (4 known properties: "tfsj", "rzfh", "hotelName", "rzsj"])
+ at [Source: {"gxdwbm":513231400000,"gxdwmc":"阿坝县公安局阿坝镇派出所","rzsj":"2017-05-09 20:06:26","hotelName":"雪域吉福旅店","rzfh":8305,"tfsj":"2017-05-10 18:47:41"}; line: 1, column: 23] (through reference chain: bbd_z.downloadsDomains.HotelLogs["gxdwbm"])
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "gxdwbm" (class bbd_z.downloadsDomains.HotelLogs), not marked as ignorable (4 known properties: "tfsj", "rzfh", "hotelName", "rzsj"])
+ at [Source: {"gxdwbm":513231400000,"gxdwmc":"阿坝县公安局阿坝镇派出所","rzsj":"2017-05-09 20:06:26","hotelName":"雪域吉福旅店","rzfh":8305,"tfsj":"2017-05-10 18:47:41"}; line: 1, column: 23] (through reference chain: bbd_z.downloadsDomains.HotelLogs["gxdwbm"])
+	at info.bbd.utils.json.JsonUtils.getObject(JsonUtils.java:92)
+	at bbd_z.service.DownICheckService.getModel(DownICheckService.java:351)
+	at bbd_z.controller.DownICheckController.getIcheck(DownICheckController.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:114)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	... 18 common frames omitted
+Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "gxdwbm" (class bbd_z.downloadsDomains.HotelLogs), not marked as ignorable (4 known properties: "tfsj", "rzfh", "hotelName", "rzsj"])
+ at [Source: {"gxdwbm":513231400000,"gxdwmc":"阿坝县公安局阿坝镇派出所","rzsj":"2017-05-09 20:06:26","hotelName":"雪域吉福旅店","rzfh":8305,"tfsj":"2017-05-10 18:47:41"}; line: 1, column: 23] (through reference chain: bbd_z.downloadsDomains.HotelLogs["gxdwbm"])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:62)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:834)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:1093)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1485)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1463)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:282)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:140)
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:1626)
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1220)
+	at info.bbd.utils.json.JsonUtils.getObject(JsonUtils.java:89)
+	... 33 common frames omitted
+2017-07-24 02:30:27,240 [main] INFO  org.eclipse.jetty.util.log [Line:186] - Logging initialized @355ms
+2017-07-24 02:30:27,361 [main] INFO  org.eclipse.jetty.server.Server [Line:327] - jetty-9.2.10.v20150310
+2017-07-24 02:30:27,380 [main] INFO  / [Line:2052] - Initializing Spring root WebApplicationContext
+2017-07-24 02:30:28,599 [main] INFO  / [Line:2052] - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-eca56e'
+2017-07-24 02:30:28,623 [main] INFO  o.e.j.server.handler.ContextHandler [Line:744] - Started o.e.j.s.ServletContextHandler@1921e20{/,file:/C:/Users/cc/Desktop/webapi/target/classes/webapp/,AVAILABLE}
+2017-07-24 02:30:28,708 [main] INFO  o.e.jetty.server.ServerConnector [Line:266] - Started ServerConnector@19d1a19{HTTP/1.1}{0.0.0.0:2800}
+2017-07-24 02:30:28,709 [main] INFO  org.eclipse.jetty.server.Server [Line:379] - Started @1825ms
+2017-07-24 02:30:28,709 [main] INFO  bbd_z.server.ApiServer [Line:66 ] - Server started at port 2800
+2017-07-24 02:30:35,976 [qtp3874065-13 - /down/iCheck?id=513231198405091727] INFO  info.bbd.utils.config.ConfigUtil [Line:31 ] - Load resource: utils.properties
+2017-07-24 02:30:35,977 [qtp3874065-13 - /down/iCheck?id=513231198405091727] ERROR info.bbd.utils.config.ConfigUtil [Line:36 ] - Config file 'utils.properties' does not exist!
+2017-07-24 02:30:35,977 [qtp3874065-13 - /down/iCheck?id=513231198405091727] INFO  info.bbd.utils.config.ConfigUtil [Line:31 ] - Load resource: utils-sample.properties
+2017-07-24 02:42:46,895 [main] INFO  org.eclipse.jetty.util.log [Line:186] - Logging initialized @371ms
+2017-07-24 02:42:47,011 [main] INFO  org.eclipse.jetty.server.Server [Line:327] - jetty-9.2.10.v20150310
+2017-07-24 02:42:47,032 [main] INFO  / [Line:2052] - Initializing Spring root WebApplicationContext
+2017-07-24 02:42:48,270 [main] INFO  / [Line:2052] - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-eca56e'
+2017-07-24 02:42:48,294 [main] INFO  o.e.j.server.handler.ContextHandler [Line:744] - Started o.e.j.s.ServletContextHandler@1921e20{/,file:/C:/Users/cc/Desktop/webapi/target/classes/webapp/,AVAILABLE}
+2017-07-24 02:42:48,380 [main] INFO  o.e.jetty.server.ServerConnector [Line:266] - Started ServerConnector@19d1a19{HTTP/1.1}{0.0.0.0:2800}
+2017-07-24 02:42:48,381 [main] INFO  org.eclipse.jetty.server.Server [Line:379] - Started @1857ms
+2017-07-24 02:42:48,381 [main] INFO  bbd_z.server.ApiServer [Line:66 ] - Server started at port 2800
+2017-07-24 02:42:51,331 [qtp3874065-14 - /down/iCheck?id=513231198405091727] INFO  info.bbd.utils.config.ConfigUtil [Line:31 ] - Load resource: utils.properties
+2017-07-24 02:42:51,331 [qtp3874065-14 - /down/iCheck?id=513231198405091727] ERROR info.bbd.utils.config.ConfigUtil [Line:36 ] - Config file 'utils.properties' does not exist!
+2017-07-24 02:42:51,332 [qtp3874065-14 - /down/iCheck?id=513231198405091727] INFO  info.bbd.utils.config.ConfigUtil [Line:31 ] - Load resource: utils-sample.properties
+2017-07-24 02:48:58,943 [main] INFO  org.eclipse.jetty.util.log [Line:186] - Logging initialized @358ms
+2017-07-24 02:48:59,057 [main] INFO  org.eclipse.jetty.server.Server [Line:327] - jetty-9.2.10.v20150310
+2017-07-24 02:48:59,077 [main] INFO  / [Line:2052] - Initializing Spring root WebApplicationContext
+2017-07-24 02:49:00,320 [main] INFO  / [Line:2052] - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-eca56e'
+2017-07-24 02:49:00,342 [main] INFO  o.e.j.server.handler.ContextHandler [Line:744] - Started o.e.j.s.ServletContextHandler@1921e20{/,file:/C:/Users/cc/Desktop/webapi/target/classes/webapp/,AVAILABLE}
+2017-07-24 02:49:00,434 [main] INFO  o.e.jetty.server.ServerConnector [Line:266] - Started ServerConnector@19d1a19{HTTP/1.1}{0.0.0.0:2800}
+2017-07-24 02:49:00,435 [main] INFO  org.eclipse.jetty.server.Server [Line:379] - Started @1850ms
+2017-07-24 02:49:00,435 [main] INFO  bbd_z.server.ApiServer [Line:66 ] - Server started at port 2800
+2017-07-24 02:49:04,046 [qtp3874065-10 - /down/iCheck?id=513231198405091727] INFO  info.bbd.utils.config.ConfigUtil [Line:31 ] - Load resource: utils.properties
+2017-07-24 02:49:04,046 [qtp3874065-10 - /down/iCheck?id=513231198405091727] ERROR info.bbd.utils.config.ConfigUtil [Line:36 ] - Config file 'utils.properties' does not exist!
+2017-07-24 02:49:04,047 [qtp3874065-10 - /down/iCheck?id=513231198405091727] INFO  info.bbd.utils.config.ConfigUtil [Line:31 ] - Load resource: utils-sample.properties
+2017-07-24 02:51:00,100 [main] INFO  org.eclipse.jetty.util.log [Line:186] - Logging initialized @355ms
+2017-07-24 02:51:00,211 [main] INFO  org.eclipse.jetty.server.Server [Line:327] - jetty-9.2.10.v20150310
+2017-07-24 02:51:00,231 [main] INFO  / [Line:2052] - Initializing Spring root WebApplicationContext
+2017-07-24 02:51:01,437 [main] INFO  / [Line:2052] - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-eca56e'
+2017-07-24 02:51:01,461 [main] INFO  o.e.j.server.handler.ContextHandler [Line:744] - Started o.e.j.s.ServletContextHandler@1921e20{/,file:/C:/Users/cc/Desktop/webapi/target/classes/webapp/,AVAILABLE}
+2017-07-24 02:51:01,548 [main] INFO  o.e.jetty.server.ServerConnector [Line:266] - Started ServerConnector@19d1a19{HTTP/1.1}{0.0.0.0:2800}
+2017-07-24 02:51:01,549 [main] INFO  org.eclipse.jetty.server.Server [Line:379] - Started @1806ms
+2017-07-24 02:51:01,549 [main] INFO  bbd_z.server.ApiServer [Line:66 ] - Server started at port 2800
+2017-07-24 02:51:07,862 [qtp3874065-13 - /down/iCheck?id=513231198405091727] INFO  info.bbd.utils.config.ConfigUtil [Line:31 ] - Load resource: utils.properties
+2017-07-24 02:51:07,863 [qtp3874065-13 - /down/iCheck?id=513231198405091727] ERROR info.bbd.utils.config.ConfigUtil [Line:36 ] - Config file 'utils.properties' does not exist!
+2017-07-24 02:51:07,863 [qtp3874065-13 - /down/iCheck?id=513231198405091727] INFO  info.bbd.utils.config.ConfigUtil [Line:31 ] - Load resource: utils-sample.properties

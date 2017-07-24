@@ -1,0 +1,111 @@
+2017-07-10 09:22:37,101 [main] INFO  org.eclipse.jetty.util.log [Line:186] - Logging initialized @343ms
+2017-07-10 09:22:37,227 [main] INFO  org.eclipse.jetty.server.Server [Line:327] - jetty-9.2.10.v20150310
+2017-07-10 09:22:37,252 [main] INFO  / [Line:2052] - Initializing Spring root WebApplicationContext
+2017-07-10 09:22:38,372 [main] INFO  / [Line:2052] - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-5891e32e'
+2017-07-10 09:22:38,391 [main] INFO  o.e.j.server.handler.ContextHandler [Line:744] - Started o.e.j.s.ServletContextHandler@2c039ac6{/,file:/home/rex/code/IdeaProjects/webapi/target/classes/webapp/,AVAILABLE}
+2017-07-10 09:22:38,402 [main] INFO  o.e.jetty.server.ServerConnector [Line:266] - Started ServerConnector@204f30ec{HTTP/1.1}{0.0.0.0:2900}
+2017-07-10 09:22:38,402 [main] INFO  org.eclipse.jetty.server.Server [Line:379] - Started @1646ms
+2017-07-10 09:22:38,403 [main] INFO  bbd_z.server.ApiServer [Line:65 ] - Server started at port 2900
+2017-07-10 09:22:47,246 [qtp1483022288-19 - /login] INFO  bbd_z.controller.LoginController [Line:33 ] - Get a police_id null and password null
+2017-07-10 09:25:20,248 [qtp1483022288-19 - /login?police_id=123456&password=123456] INFO  bbd_z.controller.LoginController [Line:33 ] - Get a police_id 123456 and password 123456
+2017-07-10 09:25:50,597 [main] INFO  org.eclipse.jetty.util.log [Line:186] - Logging initialized @377ms
+2017-07-10 09:25:50,728 [main] INFO  org.eclipse.jetty.server.Server [Line:327] - jetty-9.2.10.v20150310
+2017-07-10 09:25:50,761 [main] INFO  / [Line:2052] - Initializing Spring root WebApplicationContext
+2017-07-10 09:25:51,885 [main] INFO  / [Line:2052] - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-52f759d7'
+2017-07-10 09:25:51,906 [main] INFO  o.e.j.server.handler.ContextHandler [Line:744] - Started o.e.j.s.ServletContextHandler@36b4cef0{/,file:/home/rex/code/IdeaProjects/webapi/target/classes/webapp/,AVAILABLE}
+2017-07-10 09:25:51,921 [main] INFO  o.e.jetty.server.ServerConnector [Line:266] - Started ServerConnector@39c0f4a{HTTP/1.1}{0.0.0.0:2900}
+2017-07-10 09:25:51,922 [main] INFO  org.eclipse.jetty.server.Server [Line:379] - Started @1703ms
+2017-07-10 09:25:51,923 [main] INFO  bbd_z.server.ApiServer [Line:65 ] - Server started at port 2900
+2017-07-10 09:26:10,687 [qtp787867107-14 - /login?police_id=123456&password=123456] INFO  bbd_z.controller.LoginController [Line:33 ] - Get a police_id 123456 and password 123456
+2017-07-10 09:28:23,465 [qtp787867107-13 - /login?police_id=156&password=123456] INFO  bbd_z.controller.LoginController [Line:33 ] - Get a police_id 156 and password 123456
+2017-07-10 09:29:06,847 [qtp787867107-16 - /login?police_id=123456&password=12345] INFO  bbd_z.controller.LoginController [Line:33 ] - Get a police_id 123456 and password 12345
+2017-07-10 09:31:04,013 [qtp787867107-16 - /homepage?police_id=123456] WARN  o.e.jetty.servlet.ServletHandler [Line:620] - 
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'homePageController': Unsatisfied dependency expressed through field 'homePageService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'homePageService': Unsatisfied dependency expressed through field 'homePageMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean found for dependency [bbd_z.dao.HomePageMapper]: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.inject.Inject()}
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:497)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'homePageController': Unsatisfied dependency expressed through field 'homePageService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'homePageService': Unsatisfied dependency expressed through field 'homePageMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean found for dependency [bbd_z.dao.HomePageMapper]: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.inject.Inject()}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:569)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:349)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.web.method.HandlerMethod.createWithResolvedBean(HandlerMethod.java:255)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:323)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:352)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1131)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:936)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	... 18 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'homePageService': Unsatisfied dependency expressed through field 'homePageMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean found for dependency [bbd_z.dao.HomePageMapper]: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.inject.Inject()}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:569)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:349)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1056)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:566)
+	... 35 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean found for dependency [bbd_z.dao.HomePageMapper]: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.inject.Inject()}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1463)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1094)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1056)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:566)
+	... 48 common frames omitted
+2017-07-10 09:33:55,207 [main] INFO  org.eclipse.jetty.util.log [Line:186] - Logging initialized @315ms
+2017-07-10 09:33:55,319 [main] INFO  org.eclipse.jetty.server.Server [Line:327] - jetty-9.2.10.v20150310
+2017-07-10 09:33:55,347 [main] INFO  / [Line:2052] - Initializing Spring root WebApplicationContext
+2017-07-10 09:33:56,490 [main] INFO  / [Line:2052] - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-52f759d7'
+2017-07-10 09:33:56,511 [main] INFO  o.e.j.server.handler.ContextHandler [Line:744] - Started o.e.j.s.ServletContextHandler@36b4cef0{/,file:/home/rex/code/IdeaProjects/webapi/target/classes/webapp/,AVAILABLE}
+2017-07-10 09:33:56,522 [main] INFO  o.e.jetty.server.ServerConnector [Line:266] - Started ServerConnector@39c0f4a{HTTP/1.1}{0.0.0.0:2900}
+2017-07-10 09:33:56,523 [main] INFO  org.eclipse.jetty.server.Server [Line:379] - Started @1631ms
+2017-07-10 09:33:56,523 [main] INFO  bbd_z.server.ApiServer [Line:65 ] - Server started at port 2900
+2017-07-10 09:33:59,837 [qtp787867107-17 - /homepage?police_id=123456] INFO  bbd_z.controller.HomePageController [Line:35 ] - Get police_id 123456 `s homepage
+2017-07-10 09:42:18,219 [main] INFO  org.eclipse.jetty.util.log [Line:186] - Logging initialized @363ms
+2017-07-10 09:42:18,342 [main] INFO  org.eclipse.jetty.server.Server [Line:327] - jetty-9.2.10.v20150310
+2017-07-10 09:42:18,369 [main] INFO  / [Line:2052] - Initializing Spring root WebApplicationContext
+2017-07-10 09:42:19,535 [main] INFO  / [Line:2052] - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-52f759d7'
+2017-07-10 09:42:19,553 [main] INFO  o.e.j.server.handler.ContextHandler [Line:744] - Started o.e.j.s.ServletContextHandler@36b4cef0{/,file:/home/rex/code/IdeaProjects/webapi/target/classes/webapp/,AVAILABLE}
+2017-07-10 09:42:19,566 [main] INFO  o.e.jetty.server.ServerConnector [Line:266] - Started ServerConnector@39c0f4a{HTTP/1.1}{0.0.0.0:2900}
+2017-07-10 09:42:19,567 [main] INFO  org.eclipse.jetty.server.Server [Line:379] - Started @1713ms
+2017-07-10 09:42:19,567 [main] INFO  bbd_z.server.ApiServer [Line:65 ] - Server started at port 2900
+2017-07-10 09:42:23,850 [qtp787867107-19 - /homepage?police_id=123456] INFO  bbd_z.controller.HomePageController [Line:35 ] - Get police_id 123456 `s homepage
+2017-07-10 09:44:24,617 [main] INFO  org.eclipse.jetty.util.log [Line:186] - Logging initialized @317ms
+2017-07-10 09:44:24,736 [main] INFO  org.eclipse.jetty.server.Server [Line:327] - jetty-9.2.10.v20150310
+2017-07-10 09:44:24,764 [main] INFO  / [Line:2052] - Initializing Spring root WebApplicationContext
+2017-07-10 09:44:25,830 [main] INFO  / [Line:2052] - Initializing Spring FrameworkServlet 'org.springframework.web.servlet.DispatcherServlet-52f759d7'
+2017-07-10 09:44:25,848 [main] INFO  o.e.j.server.handler.ContextHandler [Line:744] - Started o.e.j.s.ServletContextHandler@36b4cef0{/,file:/home/rex/code/IdeaProjects/webapi/target/classes/webapp/,AVAILABLE}
+2017-07-10 09:44:25,859 [main] INFO  o.e.jetty.server.ServerConnector [Line:266] - Started ServerConnector@39c0f4a{HTTP/1.1}{0.0.0.0:2900}
+2017-07-10 09:44:25,860 [main] INFO  org.eclipse.jetty.server.Server [Line:379] - Started @1561ms
+2017-07-10 09:44:25,860 [main] INFO  bbd_z.server.ApiServer [Line:65 ] - Server started at port 2900
+2017-07-10 09:44:29,744 [qtp787867107-17 - /homepage?police_id=123456] INFO  bbd_z.controller.HomePageController [Line:35 ] - Get police_id 123456 `s homepage

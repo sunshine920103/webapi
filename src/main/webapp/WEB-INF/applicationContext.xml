@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-3.2.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd"
+	default-lazy-init="true">
+
+	<!-- 开启自动注入 -->
+	<context:annotation-config />
+	<context:component-scan base-package="bbd_z.controller" />
+	<context:component-scan base-package="bbd_z.service" />
+
+	<!-- mapper -->
+	<bean id="baseMapper" class="org.mybatis.spring.mapper.MapperFactoryBean"
+		abstract="true" lazy-init="true">
+		<property name="sqlSessionFactory" ref="sqlSessionFactory" />
+	</bean>
+
+	<!--NEW-->
+	<bean id="communicationMapper" parent="baseMapper">
+		<property name="mapperInterface" value="bbd_z.dao.DownCommunicationMapper" />
+	</bean>
+	<bean id="downDeliveryMapper" parent="baseMapper">
+		<property name="mapperInterface" value="bbd_z.dao.DownDeliveryMapper" />
+	</bean>
+	<bean id="downICheckMapper" parent="baseMapper">
+		<property name="mapperInterface" value="bbd_z.dao.DownICheckMapper" />
+	</bean>
+	<!--New End-->
+	<bean id="loginMapper" parent="baseMapper">
+		<property name="mapperInterface" value="bbd_z.dao.LoginMapper" />
+	</bean>
+	
+	<bean id="queryMapper" parent="baseMapper">
+		<property name="mapperInterface" value="bbd_z.dao.QueryMapper" />
+	</bean>
+
+	<bean id="warnMapper" parent="baseMapper">
+		<property name="mapperInterface" value="bbd_z.dao.WarningReportMapper" />
+	</bean>
+
+	<bean id="homePageMapper" parent="baseMapper">
+		<property name="mapperInterface" value="bbd_z.dao.HomePageMapper" />
+	</bean>
+
+	<bean id="dataCheckMapper" parent="baseMapper">
+		<property name="mapperInterface" value="bbd_z.dao.DataCheckMapper" />
+	</bean>
+
+	<bean id="abnormalCheckMapper" parent="baseMapper">
+		<property name="mapperInterface" value="bbd_z.dao.AbnormalCheckMapper" />
+	</bean>
+
+	<bean id="warningMapper" parent="baseMapper">
+		<property name="mapperInterface" value="bbd_z.dao.WarningMapper" />
+	</bean>
+
+	<bean id="warningReportMapper" parent="baseMapper">
+		<property name="mapperInterface" value="bbd_z.dao.WarningReportMapper" />
+	</bean>
+
+	<bean id="abnormalMapper" parent="baseMapper">
+		<property name="mapperInterface" value="bbd_z.dao.AbnormalMapper" />
+	</bean>
+
+	<bean id="archivesMapper" parent="baseMapper">
+		<property name="mapperInterface" value="bbd_z.dao.ArchivesMapper" />
+	</bean>
+
+	<!-- 自定义对象映射 -->
+	<bean id="customObjectMapper" class="bbd_z.utils.CustomObjectMapper" />
+
+	<mvc:annotation-driven>
+		<mvc:message-converters>
+			<bean class="org.springframework.http.converter.StringHttpMessageConverter" />
+			<bean
+				class="org.springframework.http.converter.ByteArrayHttpMessageConverter" />
+			<bean
+				class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
+				<property name="objectMapper" ref="customObjectMapper" />
+			</bean>
+		</mvc:message-converters>
+	</mvc:annotation-driven>
+
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="configLocation" value="classpath:mybatis-config.xml"></property>
+	</bean>
+
+	<bean id="transactionManager"
+		class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
+		destroy-method="close">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="${db.url}" />
+		<property name="username" value="${db.username}" />
+		<property name="password" value="${db.password}" />
+		<property name="validationQuery" value="select 1" />
+	</bean>
+
+	<context:property-placeholder location="classpath:db.properties" />
+</beans>
